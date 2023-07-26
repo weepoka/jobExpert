@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Sabbir Hasan",
+    "img": "https://i.ibb.co/TKRVgLS/image-95.png",
+    "role": "UI/UX Designer",
+    "company": "Xyz Company Ltd.",
+    "location": "Dhaka, Bangladesh",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/sabbir.hasan",
+      "twitter": "https://twitter.com/sabbir_design",
+      "instagram": "https://www.instagram.com/sabbir_design/",
+      "linkedin": "https://www.linkedin.com/in/sabbir-hasan/"
+    }
+  },
+  {
+    "name": "Reduanul Riyad ",
+    "img": "https://i.ibb.co/ww4kHY7/image-96.png",
+    "role": "UI/UX Designer",
+    "company": "Xyz Company Ltd.",
+    "location": "Dhaka, Bangladesh",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/sabbir.hasan",
+      "twitter": "https://twitter.com/sabbir_design",
+      "instagram": "https://www.instagram.com/sabbir_design/",
+      "linkedin": "https://www.linkedin.com/in/sabbir-hasan/"
+    }
+  },
+  {
+    "name": "Sazid Khan",
+    "img": "https://i.ibb.co/z5hSDwY/image-97.png",
+    "role": "UI/UX Designer",
+    "company": "Xyz Company Ltd.",
+    "location": "Dhaka, Bangladesh",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/sabbir.hasan",
+      "twitter": "https://twitter.com/sabbir_design",
+      "instagram": "https://www.instagram.com/sabbir_design/",
+      "linkedin": "https://www.linkedin.com/in/sabbir-hasan/"
+    }
+  },
+  {
+    "name": "Rakib Hasan",
+    "img": "https://i.ibb.co/K7THnpt/image-98.png",
+    "role": "UI/UX Designer",
+    "company": "Xyz Company Ltd.",
+    "location": "Dhaka, Bangladesh",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/sabbir.hasan",
+      "twitter": "https://twitter.com/sabbir_design",
+      "instagram": "https://www.instagram.com/sabbir_design/",
+      "linkedin": "https://www.linkedin.com/in/sabbir-hasan/"
+    }
+  }
+]

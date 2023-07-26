@@ -1,0 +1,33 @@
+@keyframes dropdown {
+  0% {
+    transform: translateX(-25px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.dropdown-menu-open {
+  animation-name: dropdown;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes dropup {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(25px);
+    opacity: 0;
+  }
+}
+
+.dropdown-menu-close {
+  animation-name: dropup;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+}

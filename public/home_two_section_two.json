@@ -1,0 +1,44 @@
+[
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/Qkrh2zx/image-60.png",
+    "title": "Daily Quiz",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/b3ZVKsB/image-61.png",
+    "title": "Job Solution",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/d7jN865/image-62.png",
+    "title": "ICT Expert",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/qmD0fxB/image-63.png",
+    "title": "Job Preparation",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/jfrpMXH/image-64.png",
+    "title": "Vocabulary ",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/xgs4M6Q/image-65.png",
+    "title": "English Lecture",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  }
+]

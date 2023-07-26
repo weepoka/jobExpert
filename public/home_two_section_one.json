@@ -1,0 +1,44 @@
+[
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/fq6TbNN/icon-1.png",
+    "title": "Exam Zone",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/VNSSTr1/icon-2.png",
+    "title": "Premium Member",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/cx7b5yH/icon-3.png",
+    "title": "Video Support",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "/",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/V3FgnT7/icon-4.png",
+    "title": "Live Exam",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/h2LmgGk/icon-5.png",
+    "title": "Pdf Support",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  },
+  {
+    "url": "",
+    "bgColor": "#EAE9E9",
+    "icon": "https://i.ibb.co/0JyPKLf/icon-6.png",
+    "title": "Study Communities",
+    "description": "Live Exam, Archive, Routine, Syllabus, Merit List etc."
+  }
+]
