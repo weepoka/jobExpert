@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { LinkType } from "../../types/types";
 import Home_section_two from "./Home_section_two";
 import Home_section_three from "./Home_section_three";
+import Home_section_four from "./Home_section_four";
 
 const Home_two = () => {
   const [data, setData] = useState<LinkType[]>([]);
@@ -38,6 +39,9 @@ const Home_two = () => {
 
       {/* section three  */}
       <Home_section_three />
+
+      {/* section four */}
+      <Home_section_four />
     </div>
   );
 };

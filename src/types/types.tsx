@@ -22,3 +22,10 @@ export type profileInfo = {
   location: string;
   socialMedia: SocialMediaLinks;
 };
+
+// home two section four data types
+export type successType = {
+  icon: string;
+  title: string;
+  total: number;
+};
