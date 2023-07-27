@@ -29,3 +29,11 @@ export type successType = {
   title: string;
   total: number;
 };
+
+//home two section five data types
+export type feedback = {
+  name: string;
+  img: string;
+  description: string;
+  address: string;
+};

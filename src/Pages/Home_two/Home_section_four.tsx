@@ -20,7 +20,7 @@ const Home_section_four = () => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="bg-[#EAE9E9] w-11/12 py-10 rounded-lg hover:bg-[#26A4DE] duration-500 hover:text-[#FFFFFF]"
+            className="bg-[#EAE9E9] w-11/12 py-10 rounded-lg hover:bg-[#26A4DE] duration-500 hover:text-[#FFFFFF] cursor-pointer"
           >
             <img src={item.icon} alt="" className="w-20 mx-auto" />
             <h3 className="text-center text-lg font-bold py-2">{item.title}</h3>
