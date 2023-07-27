@@ -1,4 +1,5 @@
 // data type for home_two section one and two data
+
 export type LinkType = {
   url: string;
   icon: string;

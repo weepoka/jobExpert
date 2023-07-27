@@ -152,8 +152,11 @@ const Footer = () => {
 
       <div className="">
         <p className="text-base py-4 text-center text-gray-600">
-          Copyright ©{getCurrentYear()} Job Expert Developed by Weero Digital.
-          All rights reserved.
+          Copyright ©{getCurrentYear()} Job Expert Developed by{" "}
+          <a href="https://weerodigital.com/" target="_blank">
+            <span className="text-[#004A8F] font-bold">Weero Digital</span>
+          </a>
+          . All rights reserved.
         </p>
       </div>
     </div>
