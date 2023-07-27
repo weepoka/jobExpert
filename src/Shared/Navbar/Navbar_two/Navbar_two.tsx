@@ -107,7 +107,7 @@ const Navbar_two = () => {
   );
 
   return (
-    <div className="sticky w-full shadow-md  top-0 z-10 px-16 bg-[#EAE9E9]">
+    <div className="sticky w-full shadow-md  top-0 z-30 px-16 bg-[#EAE9E9]">
       <div className="mx-auto duration-300 ">
         <div className="relative flex items-center justify-between">
           <Link
