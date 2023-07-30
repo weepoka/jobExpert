@@ -2,6 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { Icon } from "@iconify/react";
 import PackageUpdate from "./PackageUpdate";
+import Routine from "./Routine";
 
 const StudentTabs = () => {
   return (
@@ -53,7 +54,7 @@ const StudentTabs = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <Routine />
         </TabPanel>
       </Tabs>
     </div>
