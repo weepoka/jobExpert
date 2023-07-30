@@ -34,6 +34,21 @@ const Routine = () => {
                   <td className="border px-4 py-2">Row 3, Cell 2</td>
                   <td className="border px-4 py-2">Row 3, Cell 3</td>
                 </tr>
+                <tr>
+                  <td className="border px-4 py-2">Row 3, Cell 1</td>
+                  <td className="border px-4 py-2">Row 3, Cell 2</td>
+                  <td className="border px-4 py-2">Row 3, Cell 3</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Row 3, Cell 1</td>
+                  <td className="border px-4 py-2">Row 3, Cell 2</td>
+                  <td className="border px-4 py-2">Row 3, Cell 3</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Row 3, Cell 1</td>
+                  <td className="border px-4 py-2">Row 3, Cell 2</td>
+                  <td className="border px-4 py-2">Row 3, Cell 3</td>
+                </tr>
               </tbody>
             </table>
           </div>

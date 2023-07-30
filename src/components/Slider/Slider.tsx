@@ -14,6 +14,9 @@ import { EffectFade, Navigation } from "swiper/modules";
 const Slider = () => {
   return (
     <>
+      <h1 className="text-xl md:text-3xl text-center mt-10 mb-10 font-semibold">
+        চাকরি প্রস্তুতি কোর্স সমূহ
+      </h1>
       <Swiper
         spaceBetween={30}
         effect={"fade"}

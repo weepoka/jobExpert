@@ -3,6 +3,7 @@ import "react-tabs/style/react-tabs.css";
 import { Icon } from "@iconify/react";
 import PackageUpdate from "./PackageUpdate";
 import Routine from "./Routine";
+import Result from "./Result";
 
 const StudentTabs = () => {
   return (
@@ -48,13 +49,22 @@ const StudentTabs = () => {
         </TabList>
 
         {/* tab list items  */}
+
+        {/* package update */}
         <TabPanel>
           <div>
             <PackageUpdate />
           </div>
         </TabPanel>
+
+        {/* routine update */}
         <TabPanel>
           <Routine />
+        </TabPanel>
+
+        {/* Result update */}
+        <TabPanel>
+          <Result />
         </TabPanel>
       </Tabs>
     </div>
