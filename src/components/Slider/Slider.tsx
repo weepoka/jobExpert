@@ -7,11 +7,11 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./HomeSlider.css";
+import "./Slider.css";
 
 import { EffectFade, Navigation } from "swiper/modules";
 
-const HomeSlider = () => {
+const Slider = () => {
   return (
     <>
       <Swiper
@@ -32,4 +32,4 @@ const HomeSlider = () => {
   );
 };
 
-export default HomeSlider;
+export default Slider;

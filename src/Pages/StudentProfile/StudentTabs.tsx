@@ -1,6 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { Icon } from "@iconify/react";
+import PackageUpdate from "./PackageUpdate";
 
 const StudentTabs = () => {
   return (
@@ -47,7 +48,9 @@ const StudentTabs = () => {
 
         {/* tab list items  */}
         <TabPanel>
-          <h2>Any content 1</h2>
+          <div>
+            <PackageUpdate />
+          </div>
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>
