@@ -17,7 +17,7 @@ const Routine = () => {
             </h1>
           </div>
           <div className="mx-auto">
-            <table className="table-auto w-full">
+            <table className="table-auto w-full text-center">
               <tbody>
                 <tr>
                   <td className="border px-4 py-2">Row 1, Cell 1</td>

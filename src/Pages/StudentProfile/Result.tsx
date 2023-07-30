@@ -15,35 +15,31 @@ const Result = () => {
           </h1>
         </div>
         <div className="mx-auto">
-          <table className="table-auto mt-5 w-full">
+          <table className="table-auto mt-5 w-full text-center">
             <tbody>
               <tr>
-                <td className="border px-4 py-2 text-center">বিষয়</td>
-                <td className="border px-4 py-2 text-center">সঠিক উত্তর</td>
-                <td className="border px-4 py-2 text-center">মোট নাম্বার</td>
-                <td className="border px-4 py-2 text-center">কমেন্ট</td>
+                <td className="border px-4 py-2 ">বিষয়</td>
+                <td className="border px-4 py-2 ">সঠিক উত্তর</td>
+                <td className="border px-4 py-2 ">মোট নাম্বার</td>
+                <td className="border px-4 py-2 ">কমেন্ট</td>
               </tr>
               <tr>
-                <td className="border px-4 py-2 text-center">
-                  বিসিএস প্রিলি-২০২৩
-                </td>
-                <td className="border px-4 py-2 text-center">৬০</td>
-                <td className="border px-4 py-2 text-center">১০০</td>
-                <td className="border px-4 py-2 text-center">Intermediate</td>
+                <td className="border px-4 py-2 ">বিসিএস প্রিলি-২০২৩</td>
+                <td className="border px-4 py-2 ">৬০</td>
+                <td className="border px-4 py-2 ">১০০</td>
+                <td className="border px-4 py-2 ">Intermediate</td>
               </tr>
               <tr>
-                <td className="border px-4 py-2 text-center">
-                  ৯ম-২০তম গ্রেড পরীক্ষা
-                </td>
-                <td className="border px-4 py-2 text-center">৫০</td>
-                <td className="border px-4 py-2 text-center">৫০</td>
-                <td className="border px-4 py-2 text-center">Best</td>
+                <td className="border px-4 py-2 ">৯ম-২০তম গ্রেড পরীক্ষা</td>
+                <td className="border px-4 py-2 ">৫০</td>
+                <td className="border px-4 py-2 ">৫০</td>
+                <td className="border px-4 py-2 ">Best</td>
               </tr>
               <tr>
-                <td className="border px-4 py-2 text-center">ভর্তি পরীক্ষা</td>
-                <td className="border px-4 py-2 text-center">২০</td>
-                <td className="border px-4 py-2 text-center">২০</td>
-                <td className="border px-4 py-2 text-center">Best</td>
+                <td className="border px-4 py-2 ">ভর্তি পরীক্ষা</td>
+                <td className="border px-4 py-2 ">২০</td>
+                <td className="border px-4 py-2 ">২০</td>
+                <td className="border px-4 py-2 ">Best</td>
               </tr>
             </tbody>
           </table>

@@ -4,6 +4,8 @@ import { Icon } from "@iconify/react";
 import PackageUpdate from "./PackageUpdate";
 import Routine from "./Routine";
 import Result from "./Result";
+import ExamUpdate from "./ExamUpdate";
+import Favourite from "./Favourite";
 
 const StudentTabs = () => {
   return (
@@ -65,6 +67,16 @@ const StudentTabs = () => {
         {/* Result update */}
         <TabPanel>
           <Result />
+        </TabPanel>
+
+        {/* exam update */}
+        <TabPanel>
+          <ExamUpdate />
+        </TabPanel>
+
+        {/* favourite  */}
+        <TabPanel>
+          <Favourite />
         </TabPanel>
       </Tabs>
     </div>
