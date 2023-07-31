@@ -46,3 +46,15 @@ export type examzone = {
   title: string;
   description: string;
 };
+
+//live expert data types
+export type ExpertType = {
+  bgColor: string;
+  icon: string;
+  title: string;
+  start: string;
+  time_count: string;
+  premium_icon: string;
+  premium_text: string;
+  description: string;
+};

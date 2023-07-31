@@ -8,6 +8,7 @@ import SuccessStory from "../Pages/SuccessStory/SuccessStory";
 import StudentProfile from "../Pages/StudentProfile/StudentProfile";
 import ExamZone from "../Pages/Home_two/ExamZone/ExamZone";
 import VerificationForm from "../Pages/SignIn/VerificationForm/VerificationForm";
+import LiveExpert from "../Pages/Home_two/LiveExpert/LiveExpert";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/examzone",
         element: <ExamZone />,
+      },
+      {
+        path: "/live-expert",
+        element: <LiveExpert />,
       },
       {
         path: "/success",
