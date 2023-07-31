@@ -6,6 +6,8 @@ import Home from "../Pages/Home_one/Home";
 import Home_two from "../Pages/Home_two/Home_two";
 import SuccessStory from "../Pages/SuccessStory/SuccessStory";
 import StudentProfile from "../Pages/StudentProfile/StudentProfile";
+import ExamZone from "../Pages/Home_two/ExamZone/ExamZone";
+import VerificationForm from "../Pages/SignIn/VerificationForm/VerificationForm";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ export const router = createBrowserRouter([
         element: <Home_two />,
       },
       {
+        path: "/examzone",
+        element: <ExamZone />,
+      },
+      {
         path: "/success",
         element: <SuccessStory />,
       },
@@ -31,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/signIn",
         element: <SignIn />,
+      },
+      {
+        path: "/verification",
+        element: <VerificationForm />,
       },
       {
         path: "/studentprofile",

@@ -1,15 +1,16 @@
-import homeimg from "../../assets/slider/Frame 72.png";
 import logo from "../../assets/brandLogo/logo.png";
 
 import appstore from "../../assets/brandLogo/appstore (1).png";
 import googlestore from "../../assets/brandLogo/appstore (2).png";
 import { Link } from "react-router-dom";
 import Slider from "../../components/Slider/Slider";
+import Banner from "../../components/Banner/Banner";
 
 const Home = () => {
   return (
     <div className="">
-      <img src={homeimg} alt="" className="w-full" />
+      {/* banner section  */}
+      <Banner />
 
       {/* section one  */}
       <section className="w-11/12 md:w-2/3  mx-auto mt-16">

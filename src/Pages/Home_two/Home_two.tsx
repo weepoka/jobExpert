@@ -1,5 +1,3 @@
-import homeimg from "../../assets/slider/Frame 72.png";
-
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { LinkType } from "../../types/types";
@@ -7,6 +5,9 @@ import Home_section_two from "./Home_section_two";
 import Home_section_three from "./Home_section_three";
 import Home_section_four from "./Home_section_four";
 import Home_section_five from "./Home_section_five";
+import Slider from "../../components/Slider/Slider";
+import JobExpart from "../../components/JobExpart/JobExpart";
+import Banner from "../../components/Banner/Banner";
 
 const Home_two = () => {
   const [data, setData] = useState<LinkType[]>([]);
@@ -18,7 +19,8 @@ const Home_two = () => {
 
   return (
     <div className="mt">
-      <img src={homeimg} alt="" className="w-full" />
+      {/* banner section  */}
+      <Banner />
 
       {/* section one */}
       <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-items-center items-center gap-5 md:gap-0 py-24 mx-5">
@@ -46,6 +48,14 @@ const Home_two = () => {
 
       {/* section five  */}
       <Home_section_five />
+
+      {/* section six */}
+      <div className="mt-20">
+        <Slider />
+      </div>
+
+      {/* section seven  */}
+      <JobExpart />
     </div>
   );
 };

@@ -38,3 +38,11 @@ export type feedback = {
   description: string;
   address: string;
 };
+
+//exam zone data types
+
+export type examzone = {
+  icon: string;
+  title: string;
+  description: string;
+};
