@@ -7,6 +7,8 @@ import "./ExamZone.css";
 import FreeModelTest from "./Free_model_test/FreeModelTest";
 import ExamZonePreparation from "../../../components/ExamZone_section_two/ExamZonePreparation";
 import BcsPreparation from "./BCS_preparation/BcsPreparation";
+import PrimaryTeacher from "./Primary_teacher_assign/PrimaryTeacher";
+import RegistrationExam from "./Registration_preparation/RegistrationExam";
 
 const ExamZone = () => {
   const [data, setData] = useState<examzone[]>([]);
@@ -40,11 +42,24 @@ const ExamZone = () => {
         <div className="my-10">
           <ExamZonePreparation />
         </div>
+        {/* free model test */}
         <TabPanel>
           <FreeModelTest />
         </TabPanel>
+
+        {/* bcs preparation */}
         <TabPanel>
           <BcsPreparation />
+        </TabPanel>
+
+        {/* primary teacher assign */}
+        <TabPanel>
+          <PrimaryTeacher />
+        </TabPanel>
+
+        {/* registration preparation */}
+        <TabPanel>
+          <RegistrationExam />
         </TabPanel>
       </Tabs>
     </div>
