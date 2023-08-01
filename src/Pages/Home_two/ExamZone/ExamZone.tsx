@@ -9,6 +9,8 @@ import ExamZonePreparation from "../../../components/ExamZone_section_two/ExamZo
 import BcsPreparation from "./BCS_preparation/BcsPreparation";
 import PrimaryTeacher from "./Primary_teacher_assign/PrimaryTeacher";
 import RegistrationExam from "./Registration_preparation/RegistrationExam";
+import JobSolution from "./Job_solution/JobSolution";
+import BankPreparation from "./BankPreparation/BankPreparation";
 
 const ExamZone = () => {
   const [data, setData] = useState<examzone[]>([]);
@@ -60,6 +62,16 @@ const ExamZone = () => {
         {/* registration preparation */}
         <TabPanel>
           <RegistrationExam />
+        </TabPanel>
+
+        {/* job solution */}
+        <TabPanel>
+          <JobSolution />
+        </TabPanel>
+
+        {/* bank preparation */}
+        <TabPanel>
+          <BankPreparation />
         </TabPanel>
       </Tabs>
     </div>
