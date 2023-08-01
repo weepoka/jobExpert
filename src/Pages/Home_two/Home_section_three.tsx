@@ -11,8 +11,6 @@ const Home_section_three = () => {
       .then((data) => setData(data));
   }, []);
 
-  console.log(data);
-
   return (
     <>
       <h3 className="text-2xl text-center font-bold mb-10 mt-20">

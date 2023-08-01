@@ -4,6 +4,8 @@ import { examzone } from "../../../types/types";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./ExamZone.css";
+import FreeModelTest from "./Free_model_test/FreeModelTest";
+import ExamZonePreparation from "../../../components/ExamZone_section_two/ExamZonePreparation";
 
 const ExamZone = () => {
   const [data, setData] = useState<examzone[]>([]);
@@ -20,7 +22,7 @@ const ExamZone = () => {
       <Tabs>
         <TabList>
           {/* section one */}
-          <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-items-center items-center gap-5 md:gap-0 py-10 mx-5 ">
+          <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-items-center items-center gap-5 md:gap-0 py-10 mx-5 ">
             {data.map((item, index) => (
               <Tab>
                 <div key={index} className=" py-5 rounded-lg duration-500">
@@ -34,7 +36,12 @@ const ExamZone = () => {
             ))}
           </section>
         </TabList>
-        <TabPanel></TabPanel>
+        <div className="my-10">
+          <ExamZonePreparation />
+        </div>
+        <TabPanel>
+          <FreeModelTest />
+        </TabPanel>
       </Tabs>
     </div>
   );

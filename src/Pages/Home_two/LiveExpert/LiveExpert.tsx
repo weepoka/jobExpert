@@ -2,6 +2,7 @@ import Banner from "../../../components/Banner/Banner";
 import ExamDropdown from "../../../components/ExamDropdown/ExamDropdown";
 import { useState, useEffect } from "react";
 import { ExpertType } from "../../../types/types";
+import JobExpart from "../../../components/JobExpart/JobExpart";
 
 const LiveExpert = () => {
   const [data, setData] = useState<ExpertType[]>([]);
@@ -12,7 +13,7 @@ const LiveExpert = () => {
   }, []);
 
   return (
-    <div>
+    <>
       {/* banner section  */}
       <Banner />
       <div className="w-11/12 md:w-4/5 mx-auto pb-16">
@@ -28,15 +29,19 @@ const LiveExpert = () => {
             >
               <div className="flex flex-col md:flex-row items-center gap-5 gap-y-5">
                 <div>
-                  <img src={item.icon} alt="" className="w-4/5 mx-auto" />
+                  <img
+                    src={item.icon}
+                    alt=""
+                    className="w-1/2 md:w-4/5 mx-auto"
+                  />
                 </div>
-                <div className="text-left space-y-2 w-11/12 md:w-1/2">
+                <div className="text-center md:text-left space-y-2 w-11/12 md:w-1/2">
                   <h3 className=" text-lg font-bold py-2">{item.title}</h3>
                   <p className="">{item.description}</p>
                   <p>{item.start}</p>
                 </div>
               </div>
-              <div className="w-full lg:w-1/2">
+              <div className="w-full lg:w-1/2 mx-auto">
                 <h3 className="my-3 py-3 px-2 border rounded-lg inline-block">
                   {item.time_count}
                 </h3>
@@ -49,7 +54,10 @@ const LiveExpert = () => {
           ))}
         </section>
       </div>
-    </div>
+
+      {/* job expart section  */}
+      <JobExpart />
+    </>
   );
 };
 

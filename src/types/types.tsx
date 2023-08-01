@@ -47,6 +47,18 @@ export type examzone = {
   description: string;
 };
 
+//exam zone free mode test type
+
+export type FreeModel = {
+  bgColor: string;
+  icon: string;
+  title: string;
+  start: string;
+  time_count: string;
+  button: string;
+  description: string;
+};
+
 //live expert data types
 export type ExpertType = {
   bgColor: string;
