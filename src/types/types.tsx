@@ -59,6 +59,17 @@ export type FreeModel = {
   description: string;
 };
 
+export type BcsPre = {
+  bgColor: string;
+  icon: string;
+  title: string;
+  start: string;
+  time_count: string;
+  premium_icon: string;
+  button: string;
+  description: string;
+};
+
 //live expert data types
 export type ExpertType = {
   bgColor: string;

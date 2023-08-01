@@ -6,6 +6,7 @@ import "react-tabs/style/react-tabs.css";
 import "./ExamZone.css";
 import FreeModelTest from "./Free_model_test/FreeModelTest";
 import ExamZonePreparation from "../../../components/ExamZone_section_two/ExamZonePreparation";
+import BcsPreparation from "./BCS_preparation/BcsPreparation";
 
 const ExamZone = () => {
   const [data, setData] = useState<examzone[]>([]);
@@ -41,6 +42,9 @@ const ExamZone = () => {
         </div>
         <TabPanel>
           <FreeModelTest />
+        </TabPanel>
+        <TabPanel>
+          <BcsPreparation />
         </TabPanel>
       </Tabs>
     </div>
