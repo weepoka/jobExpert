@@ -9,6 +9,7 @@ import StudentProfile from "../Pages/StudentProfile/StudentProfile";
 import ExamZone from "../Pages/Home_two/ExamZone/ExamZone";
 import VerificationForm from "../Pages/SignIn/VerificationForm/VerificationForm";
 import LiveExpert from "../Pages/Home_two/LiveExpert/LiveExpert";
+import ModelTest from "../Pages/ModelTestQuestion/ModelTest";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "/studentprofile",
         element: <StudentProfile />,
+      },
+      {
+        path: "/modeltest",
+        element: <ModelTest />,
       },
     ],
   },
